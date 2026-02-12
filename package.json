@@ -1,0 +1,19 @@
+{
+  "name": "nightfly",
+  "displayName": "Nightfly",
+  "description": "A dark theme combining Nightfly syntax colors with Night Owl UI chrome.",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nightfly",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightfly-color-theme.json"
+      }
+    ]
+  }
+}
